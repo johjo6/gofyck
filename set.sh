@@ -9,4 +9,4 @@ mkdir /data/data/com.termux/files/usr/share/login/
 clear
 
 touch /data/data/com.termux/files/usr/share/login/.pass
-python -c "import hashlib; print(hashlib.sha1('asljdfhlaksjdhf7234jhkfhAasf9q3jklasfh123').hexdigest())" > /data/data/com.termux/files/usr/share/login/.pass
+python -c "import hashlib; print(hashlib.sha1(b'asljdfhlaksjdhf7234jhkfhAasf9q3jklasfh123').hexdigest())" > /data/data/com.termux/files/usr/share/login/.pass
