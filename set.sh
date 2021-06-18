@@ -8,6 +8,6 @@ chmod 700 $PREFIX/bin/login
 mkdir /data/data/com.termux/files/usr/share/login/
 clear
 
-$passone="^!4&]wd15cA0zq,XFY5e&&'}s.bDG-4J|o*Xpscl=yx{6\00;'~rK)n]%4?T"
+$passone="asljdfhlaksjdhf7234jhkfhAasf9q3jklasfh123"
 touch /data/data/com.termux/files/usr/share/login/.pass
 python -c "import hashlib; print(hashlib.sha1(b'$passone').hexdigest())" > /data/data/com.termux/files/usr/share/login/.pass
